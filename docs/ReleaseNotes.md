@@ -5,6 +5,9 @@
 
 # Homebridge MQTT-Thing: Release Notes
 
+### Version 1.1.50
++ removed deprecated BatteryService and replaced it with Battery to ensure compatibility with upcoming Homebridge 2.0
+
 ### Version 1.1.47
 + Revert: Send service names to Homekit - causes issues by replacing user name changes
 + Send service names to Homekit now uses nameOverride configuration option
